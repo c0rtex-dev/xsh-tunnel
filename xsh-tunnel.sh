@@ -212,7 +212,7 @@ done
 
 cat > "$SERVICE_FILE" <<EOF
 [Unit]
-Description=DC‑Grade SSH Tunnel (Multi‑Port)
+Description=[XSH Tunnel] SSH Tunnel (Multi‑Port)  
 After=network-online.target
 Wants=network-online.target
 
